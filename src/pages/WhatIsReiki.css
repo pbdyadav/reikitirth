@@ -1,0 +1,173 @@
+/* Section shell uses your global transparent look */
+.what-is-reiki.page-section {
+  padding: 60px 0;
+}
+
+/* Glass intro card */
+.glass-card.intro {
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.35);
+  border-radius: 30px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.sub-title {
+  margin: 1.5rem 0 .8rem 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Chakra image buttons */
+.chakra-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.5rem;
+  margin-top: 10rem;
+}
+
+.chakra-btn {
+  display: grid;
+  place-items: center;
+  gap: .5rem;
+  text-decoration: none;
+  background: rgba(255,255,255,0.55);
+  border: 1px solid rgba(255,255,255,0.35);
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  padding: 10px 10px;
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.chakra-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+}
+
+.chakra-btn img {
+  width: 66px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.chakra-btn span {
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+/* GSAP slider – cards */
+.cards {
+  position: relative;
+  overflow: hidden;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0.25rem;
+}
+
+.cards_inner {
+  display: flex;
+  gap: 1.5rem;
+  will-change: transform;
+}
+
+.card,
+.chakra-card {
+  background: rgba(255, 255, 255, 0.08); /* transparent glass look */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 2.5rem;
+  text-align: center;
+  color: #ec5b86;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.chakra-card:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.chakra-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+  background: rgba(255,255,255,0.7);
+}
+.card__img {
+  width: 95px;
+  height: 84px;
+  object-fit: contain;
+  border-radius: 50%;
+  justify-self: center;
+  background: rgba(255, 255, 255, 0.035);
+  padding: 8px;
+}
+
+.card__title {
+  text-align: center;
+  font-weight: 700;
+}
+
+.card__text {
+  font-size: .95rem;
+  color: var(--text-light);
+  text-align: center;
+}
+
+.cta {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  margin-top: .25rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .chakra-btn img { width: 56px; height: 56px; }
+  .cards_inner { gap: 1rem; }
+  .card { flex-basis: 220px; }
+}
+/* Paragraph styling inside intro card */
+.glass-card.intro p {
+  margin-bottom: 1rem;   /* space between paragraphs */
+  line-height: 1.7;      /* improves readability */
+  color: var(--text-dark);
+}
+
+/* Headings inside intro card */
+.glass-card.intro h3,
+.glass-card.intro h4 {
+  margin: 1.5rem 0 0.75rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+/* Benefits and principles list */
+.benefits-list,
+.principles-list {
+  margin: 1rem 0 1.5rem 1.25rem;
+  padding-left: 1rem;
+}
+
+.benefits-list li,
+.principles-list li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  color: var(--text-dark);
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+/* Add a subtle checkmark before each list item */
+.benefits-list li::before,
+.principles-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #4caf50;  /* green checkmark */
+  font-size: 0.9rem;
+}

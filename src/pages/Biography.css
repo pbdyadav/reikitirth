@@ -1,0 +1,86 @@
+/* Biography Section – applies to all masters */
+.biography-section {
+  padding: 60px 0;
+  line-height: 1.8;
+  color: var(--text-dark);
+}
+
+/* Container */
+.biography-section .container {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* Headings */
+.biography-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+  color: var(--primary-color, #ec5b86); /* fallback color */
+}
+
+.biography-section h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--heading-color, #333);
+}
+
+/* Paragraphs */
+.biography-section p {
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--text-color, #000000);
+}
+
+/* Lists */
+.biography-section ul {
+  margin: 1rem 0 1.5rem 1.5rem;
+  padding: 0;
+}
+
+.biography-section li {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+/* Add a subtle checkmark style before each list item */
+.biography-section li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: var(--primary-color, #ec5b86);
+  font-size: 0.9rem;
+}
+
+/* Emphasis */
+.biography-section strong {
+  color: var(--primary-color, #ec5b86);
+  font-weight: 600;
+}
+
+.biography-section em {
+  font-style: italic;
+  color: #4d1919;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .biography-section h2 {
+    font-size: 1.6rem;
+  }
+  .biography-section h3 {
+    font-size: 1.2rem;
+  }
+  .biography-section p,
+  .biography-section li {
+    font-size: 0.95rem;
+  }
+}
+
