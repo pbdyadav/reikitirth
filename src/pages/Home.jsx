@@ -1,8 +1,5 @@
 import React from 'react';
 import './Home.css';
-import img1 from '../assets/images/1.png';
-import img2 from '../assets/images/2.png';
-import img3 from '../assets/images/3.png';
 
 const Home = () => {
   return (
@@ -63,22 +60,22 @@ const Home = () => {
 
         {/* Benefit Cards */}
         <div className="hero-benefits">
-          <div className="benefit-card">
-            <img src={img1} alt="Stress Relief" />
-            <h3>Stress Relief</h3>
-            <p>Experience deep relaxation and stress reduction.</p>
-          </div>
-          <div className="benefit-card">
-            <img src={img2} alt="Energy Balance" />
-            <h3>Energy Balance</h3>
-            <p>Balance your energy and restore harmony.</p>
-          </div>
-          <div className="benefit-card">
-            <img src={img3} alt="Inner Peace" />
-            <h3>Inner Peace</h3>
-            <p>Find tranquility and emotional balance.</p>
-          </div>
-        </div>
+  <div className="benefit-card">
+    <img src={`${process.env.PUBLIC_URL}/images/1.png`} alt="Stress Relief" />
+    <h3>Stress Relief</h3>
+    <p>Experience deep relaxation and stress reduction.</p>
+  </div>
+  <div className="benefit-card">
+    <img src={`${process.env.PUBLIC_URL}/images/2.png`} alt="Energy Balance" />
+    <h3>Energy Balance</h3>
+    <p>Balance your energy and restore harmony.</p>
+  </div>
+  <div className="benefit-card">
+    <img src={`${process.env.PUBLIC_URL}/images/3.png`} alt="Inner Peace" />
+    <h3>Inner Peace</h3>
+    <p>Find tranquility and emotional balance.</p>
+  </div>
+</div>
       </section>
 
       {/* Why Choose Reiki Tirth Section */}
