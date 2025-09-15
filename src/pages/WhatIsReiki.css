@@ -25,7 +25,7 @@
 .chakra-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 1.5rem;
+  gap: 2rem;
   margin-top: 10rem;
 }
 
@@ -34,11 +34,11 @@
   place-items: center;
   gap: .5rem;
   text-decoration: none;
-  background: rgba(255,255,255,0.55);
+  background: rgba(255, 255, 255, 0.328);
   border: 1px solid rgba(255,255,255,0.35);
   backdrop-filter: blur(8px);
   border-radius: 10px;
-  padding: 10px 10px;
+  padding: 20px 10px;
   transition: transform .25s ease, box-shadow .25s ease;
 }
 
@@ -48,8 +48,8 @@
 }
 
 .chakra-btn img {
-  width: 66px;
-  height: 60px;
+  width: 70px;
+  height: 75px;
   object-fit: contain;
 }
 
@@ -62,14 +62,14 @@
 .cards {
   position: relative;
   overflow: hidden;
-  max-width: 60rem;
+  max-width: 75rem;
   margin: 0 auto;
-  padding: 0.25rem;
+  padding: 0.90rem;
 }
 
 .cards_inner {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   will-change: transform;
 }
 
@@ -78,11 +78,11 @@
   background: rgba(255, 255, 255, 0.08); /* transparent glass look */
   border: 1px solid rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
-  border-radius: 15px;
-  padding: 2.5rem;
+  border-radius: 12px;
+  padding: 1.8rem;
   text-align: center;
   color: #ec5b86;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
 .chakra-card:hover {
@@ -98,13 +98,13 @@
   background: rgba(255,255,255,0.7);
 }
 .card__img {
-  width: 95px;
-  height: 84px;
+  width: 120px;
+  height: 100px;
   object-fit: contain;
   border-radius: 50%;
   justify-self: center;
   background: rgba(255, 255, 255, 0.035);
-  padding: 8px;
+  padding: 4px;
 }
 
 .card__title {

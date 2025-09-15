@@ -2,7 +2,7 @@ const CHAKRA_DATA = {
   "root": {
     name: "Root (Muladhara : मूलाधार) - 🔴 Red",
     color: "#d63031",
-    img: "/images/chakras/root.png",
+    img: "/images/chakras/root.gif",
     description_en: `
 The Root Chakra, or Muladhara, is the foundation of the entire chakra system. Located at the base of the spine, it is the seat of security, survival, and grounding. A balanced Muladhara helps you feel stable, safe, and deeply connected to the Earth. Spiritually, it anchors the soul in the physical world, providing a foundation for all higher consciousness.
 
@@ -55,7 +55,7 @@ Activation of Muladhara lays the foundation for higher spiritual growth. Without
   "sacral": {
     name: "Sacral (Svadhisthana : स्वाधिष्ठान) - 🟠 Orange",
     color: "#e17055",
-    img: "/images/chakras/sacral.png",
+    img: "/images/chakras/sacral.gif",
     description_en: `
 The Sacral Chakra, Svadhisthana, is located in the lower abdomen below the navel. It governs creativity, emotions, relationships, and sensuality. When balanced, it brings joy, passion, and emotional equilibrium. This chakra is the seat of flow, allowing adaptation to life’s changes and expressing feelings freely.
 
@@ -102,7 +102,7 @@ description_hi: `
   "solar-plexus": {
     name: "Solar Plexus (Manipura : मणिपुर) - 🟡 Yellow",
     color: "#fdcb6e",
-    img: "/images/chakras/solar-plexus.png",
+    img: "/images/chakras/solar-plexus.gif",
     description_en: `
 The Solar Plexus Chakra, Manipura, sits above the navel in the stomach area. It is the center of personal power, will, and confidence. A balanced chakra empowers action, courage, and self-esteem. It is the seat of the fire that drives transformation and personal growth.
 
@@ -147,7 +147,7 @@ description_hi: `
   "heart": {
     name: "Heart (Anahata : हृदय) - 💚 Green",
     color: "#00b894",
-    img: "/images/chakras/heart.png",
+    img: "/images/chakras/heart.gif",
     description_en: `
 The Heart Chakra, Anahata, is the fourth chakra, located at the center of the chest. It bridges the lower and upper chakras, embodying love, compassion, and forgiveness. A balanced heart chakra radiates unconditional love and emotional harmony, connecting us to others and the Divine.
 
@@ -167,7 +167,7 @@ description_hi: `
       color: "Green",
       element: "Air",
       relatedTo: "Love, compassion, forgiveness, healing",
-      dimension: "4th Dimension – Love and unity",
+      dimension: "4th Dimension - Love and unity",
       whyActivate: "Activation opens the heart to unconditional love, empathy, and harmony in relationships. : सक्रियण हृदय को बिना शर्त प्रेम, सहानुभूति और रिश्तों में सामंजस्य के लिए खोलता है।"
     },
     imbalance: [
@@ -192,7 +192,7 @@ description_hi: `
   "throat": {
     name: "Throat (Vishuddha : विशुद्ध) - 🔵 Blue",
     color: "#74b9ff",
-    img: "/images/chakras/throat.png",
+    img: "/images/chakras/throat.gif",
     description_en: `
 The Throat Chakra, Vishuddha, governs communication, truth, and authentic expression. Located at the throat, it allows clear speaking, deep listening, and alignment of words with inner wisdom. Balanced Vishuddha fosters eloquence, confidence, and creativity in expression.
 
@@ -237,7 +237,7 @@ description_hi: `
   "third-eye": {
     name: "Third Eye (Ajna : आज्ञा) - 🟣 Indigo",
     color: "#6c5ce7",
-    img: "/images/chakras/third-eye.png",
+    img: "/images/chakras/third-eye.gif",
     description_en: `
 The Third Eye Chakra, Ajna, located between the eyebrows, is the seat of intuition, insight, and higher wisdom. It is the inner eye that perceives beyond the physical, granting clarity, understanding, and spiritual vision.
 
@@ -257,7 +257,7 @@ description_hi: `
       color: "Indigo",
       element: "Light",
       relatedTo: "Intuition, insight, imagination, inner vision",
-      dimension: "6th Dimension – Clairvoyance and perception",
+      dimension: "6th Dimension - Clairvoyance and perception",
       whyActivate: "Activation enhances intuition, insight, and trust in inner guidance. : सक्रियण अंतर्ज्ञान, अंतर्दृष्टि और आंतरिक मार्गदर्शन में विश्वास को बढ़ाता है।"
     },
     imbalance: [
@@ -282,7 +282,7 @@ description_hi: `
   "crown": {
     name: "Crown (Sahasrara : सहस्रार) - ⚪ Violet / White",
     color: "#a29bfe",
-    img: "/images/chakras/crown.png",
+    img: "/images/chakras/crown.gif",
     description_en: `
 The Crown Chakra, Sahasrara, is the seventh and highest chakra, located at the top of the head. It represents spiritual connection, enlightenment, and unity with the Divine. When balanced, it allows access to higher consciousness, wisdom, and a sense of universal oneness.
 

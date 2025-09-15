@@ -4,13 +4,13 @@ import gsap from "gsap";
 import "./WhatIsReiki.css";
 
 const chakraData = [
-  { name: "Crown", image: "/images/chakras/crown.png", link: "/chakras/crown" },
-  { name: "Third Eye", image: "/images/chakras/third-eye.png", link: "/chakras/third-eye" },
-  { name: "Throat", image: "/images/chakras/throat.png", link: "/chakras/throat" },
-  { name: "Heart", image: "/images/chakras/heart.png", link: "/chakras/heart" },
-  { name: "Solar Plexus", image: "/images/chakras/solar-plexus.png", link: "/chakras/solar-plexus" },
-  { name: "Sacral", image: "/images/chakras/sacral.png", link: "/chakras/sacral" },
-  { name: "Root", image: "/images/chakras/root.png", link: "/chakras/root" }
+  { name: "Crown", image: "/images/chakras/crown.gif", link: "/chakras/crown" },
+  { name: "Third Eye", image: "/images/chakras/third-eye.gif", link: "/chakras/third-eye" },
+  { name: "Throat", image: "/images/chakras/throat.gif", link: "/chakras/throat" },
+  { name: "Heart", image: "/images/chakras/heart.gif", link: "/chakras/heart" },
+  { name: "Solar Plexus", image: "/images/chakras/solar-plexus.gif", link: "/chakras/solar-plexus" },
+  { name: "Sacral", image: "/images/chakras/sacral.gif", link: "/chakras/sacral" },
+  { name: "Root", image: "/images/chakras/root.gif", link: "/chakras/root" }
 ];
 
 const WhatIsReiki = () => {
