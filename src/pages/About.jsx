@@ -45,7 +45,7 @@ const About = () => {
             <div className="masters-timeline">
               <div className="master">
                 <div className="master-info">
-                  <h4>Dr. Mikao Usui (1865–1926)</h4>
+                  <h4>Dr. Mikao Usui (1865-1926)</h4>
                   <p><strong>Founder of Reiki</strong></p>
                   <p>
                     Dr. Mikao Usui developed the Reiki system of natural healing in Japan. 
@@ -58,7 +58,7 @@ const About = () => {
 
               <div className="master">
                 <div className="master-info">
-                  <h4>Dr. Chujiro Hayashi (1880–1940)</h4>
+                  <h4>Dr. Chujiro Hayashi (1880-1940)</h4>
                   <p><strong>Reiki Master & Naval Officer</strong></p>
                   <p>
                     A student of Usui, Dr. Hayashi established the first Reiki clinic and 
@@ -70,13 +70,25 @@ const About = () => {
 
               <div className="master">
                 <div className="master-info">
-                  <h4>Hawayo Takata (1900–1980)</h4>
+                  <h4>Hawayo Takata (1900-1980)</h4>
                   <p><strong>Brought Reiki to the West</strong></p>
                   <p>
                     Born in Hawaii, she brought Reiki from Japan to the Western world, 
                     establishing the foundation for modern Reiki practice.
                   </p>
                   <Link to="/masters/hawayo-takata" className="read-more-btn">Read More</Link>
+                </div>
+              </div>
+
+                <div className="master">
+                <div className="master-info">
+                  <h4>Phyllis Lei Furumoto (1948-2019)</h4>
+                  <p><strong>Reiki Grandmaster</strong></p>
+                  <p>
+                    Granddaughter of Hawayo Takata and recognized Grandmaster who maintained 
+                    the traditional lineage while supporting Reiki's evolution and growth worldwide.
+                  </p>
+                  <Link to="/masters/phyllis-lei-furumoto" className="read-more-btn">Read More</Link>
                 </div>
               </div>
 

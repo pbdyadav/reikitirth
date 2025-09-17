@@ -4,12 +4,21 @@ import "../Biography.css"; // shared biography styles
 const WilliamLeeRand = () => {
   return (
     <section className="biography-section">
-      <div className="container">
-        <h2>Biography of William Lee Rand</h2>
-        <p><strong>Reiki Master, Teacher, Innovator, and Visionary</strong></p>
+      
+      
+       {/* Biography Text */}
+        <div className="bio-text">
+  <img 
+    src={`${process.env.PUBLIC_URL}/images/William Lee Rand.png`} 
+    alt="William Lee Rando"
+    className="bio-inline-photo"
+  />
+  <h2>Biography of William Lee Rand</h2>
+  <h3 className="subtitle">Reiki Master, Teacher, Innovator, and Visionary</h3>
 
-        {/* Introduction */}
-        <h3>Introduction</h3>
+  {/* Early Life */}
+  <h3>Introduction</h3>
+
         <p>
           William Lee Rand is a globally recognized <strong>Reiki Master</strong>, teacher, 
           author, and innovator whose work has profoundly shaped modern Reiki practice. 

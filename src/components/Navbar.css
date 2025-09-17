@@ -131,17 +131,33 @@
     background: #fff;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.4s ease;
+    border-top: 1px solid #eee;
+    padding: 0;
   }
 
-  .nav-menu.active {
-    max-height: 300px;
+ .nav-menu.active {
+    max-height: 500px; /* Enough space for all 7 items */
     padding: 20px 0;
   }
+  .nav-item {
+    width: 100%;
+    text-align: center;
+  }
 
+  .nav-link {
+    display: block;
+    width: 100%;
+    padding: 12px;
+  }
+
+  .hamburger {
+    display: flex;
+    z-index: 200;
+  }
   .hamburger {
     display: flex;
   }

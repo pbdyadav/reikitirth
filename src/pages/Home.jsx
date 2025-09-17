@@ -12,6 +12,7 @@ const Home = () => {
             backgroundImage: `url(${process.env.PUBLIC_URL}/images/Hn1.png)`
           }}
         >
+          
           {/* Floating Circles */}
           <div className="floating-circles">
             <div

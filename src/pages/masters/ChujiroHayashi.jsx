@@ -4,17 +4,25 @@ import "../Biography.css"; // shared biography styles
 const ChujiroHayashi = () => {
   return (
     <section className="biography-section">
-      <div className="container">
-        <h2>Biography of Dr. Chujiro Hayashi (1880–1940)</h2>
-        <p><strong>Reiki Master & Naval Officer</strong></p>
+      
+       {/* Biography Text */}
+        <div className="bio-text">
+  <img 
+    src={`${process.env.PUBLIC_URL}/images/Dr_Chujiro_Hayashi.png`} 
+    alt="Dr. Chujiro Hayashi"
+    className="bio-inline-photo"
+  />
+  <h2>Biography of Dr. Chujiro Hayashi (1880-1940)</h2>
+  <h3 className="subtitle">Reiki Master & Naval Officer</h3>
 
-        {/* Early Life */}
+  {/* Early Life */}
+
         <h3>Early Life and Family Background</h3>
         <p>
           Dr. Chujiro Hayashi was born in <strong>1880</strong> in Tokyo, Japan, during a period of 
           modernization and transformation in Japanese society following the Meiji Restoration. 
           Unlike Mikao Usui, who was born into a more spiritually oriented household, 
-          Hayashi’s early years were influenced by Japan’s emerging emphasis on science, discipline, 
+          Hayashi's early years were influenced by Japan's emerging emphasis on science, discipline, 
           and national development. His upbringing instilled in him a balance of discipline, order, 
           and responsibility.
         </p>
@@ -34,11 +42,11 @@ const ChujiroHayashi = () => {
           became invaluable later in his work with Reiki.
         </p>
         <ul>
-          <li><strong>Naval Training</strong> – He underwent rigorous physical and mental training, 
+          <li><strong>Naval Training</strong> - He underwent rigorous physical and mental training, 
           shaping his character with discipline and endurance.</li>
-          <li><strong>Medical Knowledge</strong> – During his service, he was exposed to anatomy, 
+          <li><strong>Medical Knowledge</strong> - During his service, he was exposed to anatomy, 
           first-aid methods, and naval medical practices, which enhanced his understanding of healing.</li>
-          <li><strong>Leadership Skills</strong> – Rising to the rank of <strong>Naval Officer</strong>, 
+          <li><strong>Leadership Skills</strong> - Rising to the rank of <strong>Naval Officer</strong>, 
           he gained practical experience in organization, command, and team management.</li>
         </ul>
         <p>
@@ -55,7 +63,7 @@ const ChujiroHayashi = () => {
           serve humanity in a peaceful and compassionate way, beyond military service.
         </p>
         <p>
-          He became one of Usui’s most dedicated students and was among the few to receive 
+          He became one of Usui's most dedicated students and was among the few to receive 
           the highest level of training in Reiki. Usui recognized his discipline, leadership, 
           and systematic mind, and entrusted him to carry Reiki forward after his passing.
         </p>
@@ -63,20 +71,20 @@ const ChujiroHayashi = () => {
         {/* Founding Hayashi Reiki Kenkyukai */}
         <h3>Establishing the Hayashi Reiki Kenkyukai</h3>
         <p>
-          After Usui’s death in 1926, Hayashi continued to practice and teach Reiki with great dedication. 
+          After Usui's death in 1926, Hayashi continued to practice and teach Reiki with great dedication. 
           In 1927, he founded the <strong>Hayashi Reiki Kenkyukai</strong> (Hayashi Reiki Research Institute) 
           in Tokyo. This institute became a cornerstone in the history of Reiki.
         </p>
         <ul>
-          <li><strong>Clinic-Based Approach</strong> – Hayashi introduced Reiki in a more clinical setting, 
+          <li><strong>Clinic-Based Approach</strong> - Hayashi introduced Reiki in a more clinical setting, 
           where patients could receive treatments from multiple practitioners at once.</li>
-          <li><strong>Systematic Training</strong> – He developed structured manuals and procedures for 
+          <li><strong>Systematic Training</strong> - He developed structured manuals and procedures for 
           Reiki practice, making it easier for students to learn and replicate.</li>
-          <li><strong>Expansion of Reiki</strong> – His research institute attracted many students, 
+          <li><strong>Expansion of Reiki</strong> - His research institute attracted many students, 
           who later spread Reiki throughout Japan and internationally.</li>
         </ul>
         <p>
-          Hayashi’s method emphasized a more medical-style application of Reiki, 
+          Hayashi's method emphasized a more medical-style application of Reiki, 
           while still retaining the spiritual essence taught by Usui. His approach bridged the gap between 
           traditional healing and modern medical practices.
         </p>
@@ -88,11 +96,11 @@ const ChujiroHayashi = () => {
           still used in Reiki today. His contributions included:
         </p>
         <ul>
-          <li><strong>Standardized Hand Placements</strong> – He mapped out a set of positions covering 
+          <li><strong>Standardized Hand Placements</strong> - He mapped out a set of positions covering 
           major organs and energy centers, creating a systematic treatment method.</li>
-          <li><strong>Two-Practitioner Treatments</strong> – In his clinics, patients often received 
+          <li><strong>Two-Practitioner Treatments</strong> - In his clinics, patients often received 
           healing from two practitioners simultaneously for greater effect.</li>
-          <li><strong>Medical-Oriented Explanations</strong> – He explained Reiki treatments using medical 
+          <li><strong>Medical-Oriented Explanations</strong> - He explained Reiki treatments using medical 
           terms, making Reiki more acceptable to modern Japanese society.</li>
         </ul>
         <p>
@@ -103,14 +111,14 @@ const ChujiroHayashi = () => {
         {/* Relationship with Takata */}
         <h3>Teaching Hawayo Takata</h3>
         <p>
-          One of Hayashi’s most significant contributions to Reiki’s global spread was his 
+          One of Hayashi's most significant contributions to Reiki's global spread was his 
           training of <strong>Hawayo Takata</strong>, a Japanese-American woman from Hawaii. 
           Takata came to Japan seeking healing and became one of his most devoted students. 
           After years of study, she received her Master training from Hayashi.
         </p>
         <p>
           Through Takata, Reiki was later introduced to Hawaii and the West, 
-          eventually spreading across the world. Without Hayashi’s trust in Takata, 
+          eventually spreading across the world. Without Hayashi's trust in Takata, 
           Reiki may not have reached beyond Japan.
         </p>
 
@@ -143,16 +151,16 @@ const ChujiroHayashi = () => {
         <p>
           Today, every Reiki practitioner owes gratitude to Dr. Hayashi. 
           His efforts preserved Reiki during a turbulent time in history and ensured 
-          that Usui’s teachings were not only remembered but expanded upon. 
+          that Usui's teachings were not only remembered but expanded upon. 
           Through his leadership and vision, Reiki evolved into a truly global practice.
         </p>
 
         <h3>Conclusion</h3>
         <p>
-          Dr. Chujiro Hayashi (1880–1940) stands as both a guardian and a bridge in Reiki’s history. 
+          Dr. Chujiro Hayashi (1880-1940) stands as both a guardian and a bridge in Reiki's history. 
           From the discipline of a naval officer to the compassion of a healer, 
           his life embodies the harmony of strength and gentleness. 
-          His devotion to Reiki ensured that Mikao Usui’s vision would flourish far beyond Japan, 
+          His devotion to Reiki ensured that Mikao Usui's vision would flourish far beyond Japan, 
           touching millions of lives across the world. 
           His story is not only about healing but also about the courage to choose peace, 
           compassion, and service to humanity.

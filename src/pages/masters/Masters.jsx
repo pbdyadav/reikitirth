@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Biography.css"; // shared styling
 
+
 const Masters = () => {
   const masters = [
     {
@@ -25,6 +26,13 @@ const Masters = () => {
         "Hawayo Takata, a Japanese-American woman from Hawaii, introduced Reiki to the United States. Through her teachings, Reiki spread across the Western world.",
       link: "/masters/hawayo-takata",
     },
+    {
+  name: "Phyllis Lei Furumoto (1948-2019)",
+  title: "Reiki Grandmaster & Lineage Bearer",
+  intro:
+    "Granddaughter of Hawayo Takata and recognized as the Lineage Bearer of Usui Shiki Ryoho, she upheld Reiki's tradition while guiding its global evolution.",
+  link: "/masters/phyllis-lei-furumoto",
+},
     {
       name: "William Lee Rand",
       title: "Reiki Master & Innovator",

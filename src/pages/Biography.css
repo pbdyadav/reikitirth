@@ -1,15 +1,14 @@
 /* Biography Section – applies to all masters */
 .biography-section {
-  padding: 60px 0;
+  padding: 2rem 4rem;
   line-height: 1.8;
   color: var(--text-dark);
 }
 
-/* Container */
 .biography-section .container {
-  max-width: 1050px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1.25rem;
+  width: 100%;
 }
 
 /* Headings */
@@ -18,7 +17,7 @@
   font-size: 2rem;
   margin-bottom: 1.25rem;
   font-weight: 700;
-  color: var(--primary-color, #ec5b86); /* fallback color */
+  color: var(--primary-color, #ec5b86);
 }
 
 .biography-section h3 {
@@ -50,13 +49,20 @@
   padding-left: 1.25rem;
 }
 
-/* Add a subtle checkmark style before each list item */
 .biography-section li::before {
   content: "✔";
   position: absolute;
   left: 0;
   color: var(--primary-color, #ec5b86);
   font-size: 0.9rem;
+}
+
+.biography-section .bio-text .subtitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--primary-color, #ec5b86);
+  margin-top: 0.5rem;
+  text-align: center;
 }
 
 /* Emphasis */
@@ -70,7 +76,57 @@
   color: #4d1919;
 }
 
+/* Flex container for photo + text */
+.bio-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Photo box */
+.master-photo {
+  flex: 1;
+  min-width: 220px;
+  max-width: 250px;
+  text-align: center;
+}
+
+.master-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  object-fit: cover;
+}
+
+/* Text box */
+.bio-text {
+  flex: 2;
+  min-width: 300px;
+}
+
+/* Inline photo (inside text) */
+.bio-inline-photo {
+  float: left;
+  width: 250px;
+  margin: 0 2.5rem 1rem 0;
+  border-radius: 12px;
+}
+
 /* Responsive */
+@media (max-width: 768px) {
+  .bio-flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bio-text {
+    text-align: left;
+  }
+}
+
 @media (max-width: 600px) {
   .biography-section h2 {
     font-size: 1.6rem;
@@ -83,4 +139,3 @@
     font-size: 0.95rem;
   }
 }
-

@@ -15,6 +15,7 @@ import ChakraDetail from "./pages/ChakraDetail";
 import MikaoUsui from "./pages/masters/MikaoUsui";
 import ChujiroHayashi from "./pages/masters/ChujiroHayashi";
 import HawayoTakata from "./pages/masters/HawayoTakata";
+import PhyllisLeiFurumoto from "./pages/masters/PhyllisLeiFurumoto";
 import WilliamLeeRand from "./pages/masters/WilliamLeeRand";
 import UnderConstruction from "./pages/UnderConstruction";
 
@@ -50,6 +51,7 @@ function PageWrapper() {
       <Route path="/masters/mikao-usui" element={<MikaoUsui />} />
       <Route path="/masters/chujiro-hayashi" element={<ChujiroHayashi />} />
       <Route path="/masters/hawayo-takata" element={<HawayoTakata />} />
+      <Route path="/masters/phyllis-lei-furumoto" element={<PhyllisLeiFurumoto />} />
       <Route path="/masters/william-lee-rand" element={<WilliamLeeRand />} />
       </Routes>
     </main>

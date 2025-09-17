@@ -4,12 +4,20 @@ import "../Biography.css"; // shared biography styles
 const HawayoTakata = () => {
   return (
     <section className="biography-section">
-      <div className="container">
-        <h2>Biography of Hawayo Takata (1900–1980)</h2>
-        <p><strong>The Woman Who Brought Reiki to the West</strong></p>
+      
+       {/* Biography Text */}
+        <div className="bio-text">
+  <img 
+    src={`${process.env.PUBLIC_URL}/images/Hawayo_Takata.png`} 
+    alt="Hawayo_Takata"
+    className="bio-inline-photo"
+  />
+  <h2>Biography of Hawayo Takata (1900-1980)</h2>
+  <h3 className="subtitle">The Woman Who Brought Reiki to the West</h3>
 
-        {/* Early Life */}
-        <h3>Early Life in Hawaii</h3>
+  {/* Early Life */}
+  <h3>Early Life in Hawaii</h3>
+       
         <p>
           Hawayo Hiromi Takata was born on <strong>24 December 1900</strong>, 
           on the island of Kauai, Hawaii, to Japanese immigrant parents. 

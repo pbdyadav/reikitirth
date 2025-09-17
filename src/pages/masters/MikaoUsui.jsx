@@ -4,11 +4,21 @@ import "../Biography.css";  // <-- import the shared biography styles
 const MikaoUsui = () => {
   return (
     <section className="biography-section">
-      <div className="container">
-        <h2>Biography of Dr. Mikao Usui (1865–1926)</h2>
-        <p><strong>Founder of the Usui System of Reiki Healing</strong></p>
+      
+      
+       {/* Biography Text */}
+        <div className="bio-text">
+  <img 
+    src={`${process.env.PUBLIC_URL}/images/Dr_Mikao_Usui.png`} 
+    alt="Dr_Mikao_Usui"
+    className="bio-inline-photo"
+  />
+  <h2>Biography of Dr. Mikao Usui (1865–1926)</h2>
+  <h3 className="subtitle">Founder of the Usui System of Reiki Healing</h3>
 
-        <h3>Early Life and Background</h3>
+  {/* Early Life */}
+  <h3>Early Life and Background</h3>   
+
         <p>
           Dr. Mikao Usui (often respectfully called <strong>Usui Sensei</strong>)
           was born on <strong>15 August 1865</strong> in the village of Taniai,
