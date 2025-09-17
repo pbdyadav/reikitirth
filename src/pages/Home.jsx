@@ -9,7 +9,7 @@ const Home = () => {
         <div
           className="hero-bg"
           style={{
-            backgroundImage: `url(${process.env.PUBLIC_URL}/images/Hn1.png)`
+            backgroundImage: `url(${process.env.PUBLIC_URL}/images/Hn1.webp)`
           }}
         >
           
@@ -17,27 +17,27 @@ const Home = () => {
           <div className="floating-circles">
             <div
               className="circle c1"
-              style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/Dr_Mikao_Usui.png)` }}
+              style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/Dr_Mikao_Usui.webp)` }}
             ></div>
             <div
               className="circle c2"
-              style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/Guru_ji.png)` }}
+              style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/Guru_ji.webp)` }}
             ></div>
             <div
               className="circle c3"
-              style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/Guru_Maa1.png)` }}
+              style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/Guru_Maa1.webp)` }}
             ></div>
             <div
               className="circle c4"
-              style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/Hawayo_Takata.png)` }}
+              style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/Hawayo_Takata.webp)` }}
             ></div>
             <div
               className="circle c5"
-              style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/Dr_Chujiro_Hayashi.png)` }}
+              style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/Dr_Chujiro_Hayashi.webp)` }}
             ></div>
             <div
               className="circle c6"
-              style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/Phyllis_Lei_Furumoto.png)` }}
+              style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/Phyllis_Lei_Furumoto.webp)` }}
             ></div>
           </div>
         </div>
@@ -62,17 +62,17 @@ const Home = () => {
         {/* Benefit Cards */}
         <div className="hero-benefits">
   <div className="benefit-card">
-    <img src={`${process.env.PUBLIC_URL}/images/1.png`} alt="Stress Relief" />
+    <img src={`${process.env.PUBLIC_URL}/images/1.webp`} alt="Stress Relief" />
     <h3>Stress Relief</h3>
     <p>Experience deep relaxation and stress reduction.</p>
   </div>
   <div className="benefit-card">
-    <img src={`${process.env.PUBLIC_URL}/images/2.png`} alt="Energy Balance" />
+    <img src={`${process.env.PUBLIC_URL}/images/2.webp`} alt="Energy Balance" />
     <h3>Energy Balance</h3>
     <p>Balance your energy and restore harmony.</p>
   </div>
   <div className="benefit-card">
-    <img src={`${process.env.PUBLIC_URL}/images/3.png`} alt="Inner Peace" />
+    <img src={`${process.env.PUBLIC_URL}/images/3.webp`} alt="Inner Peace" />
     <h3>Inner Peace</h3>
     <p>Find tranquility and emotional balance.</p>
   </div>

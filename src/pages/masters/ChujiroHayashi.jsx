@@ -8,7 +8,7 @@ const ChujiroHayashi = () => {
        {/* Biography Text */}
         <div className="bio-text">
   <img 
-    src={`${process.env.PUBLIC_URL}/images/Dr_Chujiro_Hayashi.png`} 
+    src={`${process.env.PUBLIC_URL}/images/Dr_Chujiro_Hayashi.webp`} 
     alt="Dr. Chujiro Hayashi"
     className="bio-inline-photo"
   />

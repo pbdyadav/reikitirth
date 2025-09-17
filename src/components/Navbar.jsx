@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="nav-container">
         <div className="nav-logo">
   <Link to="/" onClick={closeMenu} className="logo-link">
-    <img src="/images/ReikiLogo.png" alt="Reiki Tirth Logo" className="logo-img" />
+    <img src="/images/ReikiLogo.webp" alt="Reiki Tirth Logo" className="logo-img" />
     <span className="logo-text">Reiki Tirth</span>
   </Link>
 </div>
