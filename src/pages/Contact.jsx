@@ -16,22 +16,10 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
-    // Create WhatsApp message
     const whatsappMessage = `Hello! I'm ${formData.name} (${formData.email}). ${formData.message}`;
     const whatsappUrl = `https://wa.me/9926271789?text=${encodeURIComponent(whatsappMessage)}`;
-    
-    // Open WhatsApp
     window.open(whatsappUrl, '_blank');
-    
-    // Reset form
-    setFormData({
-      name: '',
-      email: '',
-      message: ''
-    });
-    
-    // Show success message
+    setFormData({ name: '', email: '', message: '' });
     alert('Thank you for your message! You will be redirected to WhatsApp to complete your inquiry.');
   };
 
@@ -64,8 +52,22 @@ const Contact = () => {
                 <i className="fab fa-whatsapp"></i> Chat on WhatsApp
               </a>
             </div>
+
+            {/* Google Map */}
+            <div className="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.0358263618327!2d75.86798759999999!3d22.6897102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd0b9609930b%3A0x7ca62a85013b60c2!2sReiki%20Tirth!5e0!3m2!1sen!2sin!4v1758115841856!5m2!1sen!2sin"
+                width="100%"
+                height="350"
+                style={{ border: 0, borderRadius: "12px" }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Reiki Tirth Location"
+              ></iframe>
+            </div>
           </div>
-          
+
           <form className="contact-form" onSubmit={handleSubmit}>
             <div className="form-group">
               <input 
