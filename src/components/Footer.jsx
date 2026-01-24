@@ -16,7 +16,7 @@ const Footer = () => {
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="https://wa.me/9893567595" aria-label="WhatsApp">
+              <a href="https://wa.me/9926271789" aria-label="WhatsApp">
                 <i className="fab fa-whatsapp"></i>
               </a>
             </div>

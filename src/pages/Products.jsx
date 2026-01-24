@@ -114,7 +114,7 @@ const Products = () => {
                 <p>{product.description}</p>
                 <div className="product-price">{product.price}</div>
                 <a 
-                  href={`https://wa.me/9893567595?text=I%20want%20to%20order%20${encodeURIComponent(product.name)}`}
+                  href={`https://wa.me/9926271789?text=I%20want%20to%20order%20${encodeURIComponent(product.name)}`}
                   className="buy-btn"
                   target="_blank"
                   rel="noopener noreferrer"

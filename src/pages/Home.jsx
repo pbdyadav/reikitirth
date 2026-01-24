@@ -50,7 +50,7 @@ const Home = () => {
           <p className="hero-subtitle">Experience the ancient art of Reiki</p>
           <p className="hero-subtitle">balance, peace, and energy restoration.</p>
           <a
-            href="https://wa.me/9893567595?text=I%20want%20to%20book%20a%20Reiki%20class"
+            href="https://wa.me/9926271789?text=I%20want%20to%20book%20a%20Reiki%20class"
             className="cta-button"
             target="_blank"
             rel="noopener noreferrer"
