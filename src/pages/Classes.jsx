@@ -25,7 +25,7 @@ const Classes = () => {
                 <li>Meditations.</li>
               </ul>
               <a 
-                href="https://wa.me/9893567595?text=I%20want%20to%20book%20Reiki%20Level%201%20class" 
+                href="https://wa.me/9926271789?text=I%20want%20to%20book%20Reiki%20Level%201%20class" 
                 className="class-book-btn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -56,7 +56,7 @@ const Classes = () => {
                 <li>Self realization.</li>
               </ul>
               <a 
-                href="https://wa.me/9893567595?text=I%20want%20to%20book%20Reiki%20Level%202%20class" 
+                href="https://wa.me/9926271789?text=I%20want%20to%20book%20Reiki%20Level%202%20class" 
                 className="class-book-btn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -85,7 +85,7 @@ const Classes = () => {
                 <li>Knowledge on different Spiritual Subjects.</li>
               </ul>
               <a 
-                href="https://wa.me/9893567595?text=I%20want%20to%20book%20Reiki%20Master%20Level%20class" 
+                href="https://wa.me/9926271789?text=I%20want%20to%20book%20Reiki%20Master%20Level%20class" 
                 className="class-book-btn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -99,7 +99,7 @@ const Classes = () => {
         <div className="class-booking-cta">
           <h3>Ready to Start Your Reiki Journey?</h3>
           <a 
-            href="https://wa.me/9893567595?text=I%20want%20to%20book%20a%20Reiki%20class" 
+            href="https://wa.me/9926271789?text=I%20want%20to%20book%20a%20Reiki%20class" 
             className="main-cta-button"
             target="_blank"
             rel="noopener noreferrer"
