@@ -25,7 +25,7 @@ const Home = () => {
             ></div>
             <div
               className="circle c3"
-              style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/Guru_Maa1.webp)` }}
+              style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/Guru_Maa3.png)` }}
             ></div>
             <div
               className="circle c4"
