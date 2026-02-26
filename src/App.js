@@ -44,7 +44,7 @@ function PageWrapper() {
         <Route path="/about" element={<About />} />
         <Route path="/what-is-reiki" element={<WhatIsReiki />} />
         <Route path="/classes" element={<Classes />} />
-        <Route path="/products" element={<UnderConstruction />} />
+        <Route path="/products" element={<Products />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/chakras/:slug" element={<ChakraDetail />} />
