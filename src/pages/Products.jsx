@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
-import { Link } from "react-router-dom";
 
 const Products = () => {
   const [activeCategory, setActiveCategory] = useState('all');
@@ -58,27 +57,30 @@ const Products = () => {
   // ✅ PRODUCTS (UNCHANGED)
   const products = [
     {
-      id: 1,
-      name: 'Reiki Ist Degree Book (रेकी प्रथम डिग्री पुस्तक)',
-      description: 'Reiki Ist Degree Book for all New Students only.',
-      price: '₹ 0',
-      category: 'book',
-      images: [
-        '/images/products/book/RIFP.png',
-        '/images/products/book/RIBP.png'
-      ]
-    },
-    {
-      id: 2,
-      name: 'Reiki IInd Degree Book (रेकी द्वितीय डिग्री पुस्तक)',
-      description: 'Reiki IInd Degree Book for all New Students only.',
-      price: '₹ 0',
-      category: 'book',
-      images: [
-        '/images/products/book/RIIFP.png',
-        '/images/products/book/RIIBP.png'
-      ]
-    },
+            id: 1,
+            name: 'Reiki Ist Degree Book',
+            description: 'Reiki Ist Degree Book for all New Students only.',
+            price: '₹ 0',
+            category: 'book',
+            images: [
+                '/images/products/book/RIFP.png',
+                '/images/products/book/RIBP.png',
+                '/images/products/book/RBB.png'
+                
+            ]
+        },
+        {
+            id: 2,
+            name: 'Reiki IInd Degree Book',
+            description: 'Reiki IInd Degree Book for all New Students only.',
+            price: '₹ 0',
+            category: 'book',
+            images: [
+                '/images/products/book/RIIFP.png',
+                '/images/products/book/RIIBP.png',
+                '/images/products/book/RBB.png'
+            ]
+        },
     {
       id: 3,
       name: 'Prosperity Box (समृद्धि बॉक्स)',

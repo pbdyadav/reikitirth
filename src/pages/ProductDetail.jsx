@@ -17,7 +17,9 @@ const ProductDetail = () => {
             category: 'book',
             images: [
                 '/images/products/book/RIFP.png',
-                '/images/products/book/RIBP.png'
+                '/images/products/book/RIBP.png',
+                '/images/products/book/RBB.png'
+                
             ]
         },
         {
@@ -28,7 +30,8 @@ const ProductDetail = () => {
             category: 'book',
             images: [
                 '/images/products/book/RIIFP.png',
-                '/images/products/book/RIIBP.png'
+                '/images/products/book/RIIBP.png',
+                '/images/products/book/RBB.png'
             ]
         },
         {
