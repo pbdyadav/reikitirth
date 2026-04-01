@@ -12,20 +12,19 @@ const ProductDetail = () => {
         {
             id: 1,
             name: 'Reiki Ist Degree Book',
-            description: 'Reiki Ist Degree Book for all New Students only.',
+            description: 'Reiki Ist Degree Book for all New Students only. "Contact the Grand Master for registration and course materials."',
             price: '₹ 0',
             category: 'book',
             images: [
                 '/images/products/book/RIFP.png',
                 '/images/products/book/RIBP.png',
                 '/images/products/book/RBB.png'
-                
             ]
         },
         {
             id: 2,
             name: 'Reiki IInd Degree Book',
-            description: 'Reiki IInd Degree Book for all New Students only.',
+            description: 'Reiki IInd Degree Book for all New Students only. "Contact the Grand Master for registration and course materials."',
             price: '₹ 0',
             category: 'book',
             images: [
@@ -36,12 +35,13 @@ const ProductDetail = () => {
         },
         {
             id: 3,
-            name: 'समृद्धि बॉक्स',
-            description: 'समृद्धि बॉक्स - लक्ष्मी पूजन सामग्री (दिवाली विशेष).',
+            name: 'Prosperity Box (समृद्धि बॉक्स)',
+            description: 'A complete Laxmi Pujan Kit featuring gold-plated idols of Ganesha, Laxmi, Saraswati, and Kuber. Includes spiritual essentials like Gomti Chakra, Shripal, and a sacred Rudraksha for home prosperity.',
             price: '₹x,xxx',
             category: 'box',
             images: [
                 '/images/products/1.png',
+                '/images/products/4.png',
                 '/images/products/2.png',
                 '/images/products/3.png'
             ]
@@ -49,21 +49,50 @@ const ProductDetail = () => {
         {
             id: 4,
             name: 'Antahkaran Pillow cover (अंतःकरण तकिया कवर)',
-            description: 'High-quality Pillow cover for Reiki healing.',
+            description: 'High-quality white pillow cover featuring the sacred Antahkaran symbol in the center. Designed specifically for Reiki healing and peaceful sleep.',
             price: '₹xxx',
             category: 'antahkaran',
             images: [
-                '/images/products/pillow.png',
+                '/images/products/pillow with bed.png',
                 '/images/products/pillow.png'
             ]
         },
         {
             id: 5,
-            name: 'Antahkaran Bed Sheet',
-            description: 'Energy-infused bed sheet',
+            name: 'Rose Quartz Crystal Bracelet (रोज क्वार्ट्ज क्रिस्टल ब्रेसलेट)',
             price: '₹x,xxx',
-            category: 'bedsheet',
-            images: ['/images/products/bedsheet/1.png']
+            category: 'crystel',
+            images: ['/images/products/crystal/1_1.png',
+                '/images/products/crystal/1_2.png',
+                '/images/products/crystal/1.jpeg'
+            ],
+            description: (
+                <div className="product-desc-wrapper">
+                    <p><strong>The Stone of Universal Love</strong></p>
+
+                    <p><strong>Product Overview:</strong><br />
+                        Embrace the gentle, soothing energy of our Pink Rose Quartz Bracelet. Crafted with high-quality, polished natural crystal beads, this is a wearable reminder of peace, compassion, and self-love.</p>
+
+                    <p><strong>Key Features:</strong></p>
+                    <ul>
+                        <li><strong>Genuine Natural Crystals:</strong> Authentic rose quartz with unique natural inclusions.</li>
+                        <li><strong>Hand-Polished Beads:</strong> Expertly rounded for a smooth, comfortable finish.</li>
+                        <li><strong>Durable Elastic Design:</strong> High-tensile stretch cord for a perfect fit.</li>
+                    </ul>
+
+                    <p><strong>Metaphysical Benefits:</strong></p>
+                    <ul>
+                        <li><strong>Emotional Healing:</strong> Helps dissolve emotional wounds and fears.</li>
+                        <li><strong>Heart Chakra:</strong> Opens the spirit to all forms of love.</li>
+                        <li><strong>Stress Relief:</strong> Soothes the nervous system.</li>
+                    </ul>
+
+                    <p><strong>Specifications:</strong><br />
+                        • Material: Natural Rose Quartz<br />
+                        • Bead Size: 8mm<br />
+                        • Style: Unisex / Minimalist</p>
+                </div>
+            )
         },
         {
             id: 6,

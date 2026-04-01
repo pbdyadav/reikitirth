@@ -59,7 +59,7 @@ const Products = () => {
     {
             id: 1,
             name: 'Reiki Ist Degree Book',
-            description: 'Reiki Ist Degree Book for all New Students only.',
+            description: 'Reiki Ist Degree Book for all New Students only. "Contact the Grand Master for registration and course materials."',
             price: '₹ 0',
             category: 'book',
             images: [
@@ -72,7 +72,7 @@ const Products = () => {
         {
             id: 2,
             name: 'Reiki IInd Degree Book',
-            description: 'Reiki IInd Degree Book for all New Students only.',
+            description: 'Reiki IInd Degree Book for all New Students only. "Contact the Grand Master for registration and course materials."',
             price: '₹ 0',
             category: 'book',
             images: [
@@ -89,6 +89,7 @@ const Products = () => {
       category: 'box',
       images: [
         '/images/products/1.png',
+        '/images/products/4.png',
         '/images/products/2.png',
         '/images/products/3.png'
       ]
@@ -100,17 +101,20 @@ const Products = () => {
       price: '₹xxx',
       category: 'antahkaran',
       images: [
-        '/images/products/pillow.png',
+        '/images/products/pillow with bed.png',
         '/images/products/pillow.png'
       ]
     },
     {
-      id: 5,
-      name: 'Antahkaran Bed Sheet',
-      description: 'Energy-infused bed sheet',
-      price: '₹x,xxx',
-      category: 'bedsheet',
-      images: ['/images/products/bedsheet/1.png']
+            id: 5,
+            name: 'Rose Quartz Crystal Bracelet (रोज क्वार्ट्ज क्रिस्टल ब्रेसलेट)',
+            description: 'Energy-infused bed sheet',
+            price: '₹x,xxx',
+            category: 'crystel',
+           images: ['/images/products/crystal/1_1.png',
+                '/images/products/crystal/1_2.png',
+                '/images/products/crystal/1.jpeg'
+            ]
     },
     {
       id: 6,

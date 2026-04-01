@@ -1238,3 +1238,17 @@ main > * {
   object-fit: contain;   /* 🔥 CHANGE THIS */
   transition: transform 0.2s ease;
 }
+.description-text ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.description-text li {
+    margin-bottom: 5px;
+    list-style-type: disc;
+}
+
+.description-text p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
