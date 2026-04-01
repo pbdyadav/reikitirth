@@ -17,6 +17,7 @@ import ChujiroHayashi from "./pages/masters/ChujiroHayashi";
 import HawayoTakata from "./pages/masters/HawayoTakata";
 import PhyllisLeiFurumoto from "./pages/masters/PhyllisLeiFurumoto";
 import WilliamLeeRand from "./pages/masters/WilliamLeeRand";
+import ProductDetail from "./pages/ProductDetail";
 import UnderConstruction from "./pages/UnderConstruction";
 
 function PageWrapper() {
@@ -48,11 +49,13 @@ function PageWrapper() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/chakras/:slug" element={<ChakraDetail />} />
-      <Route path="/masters/mikao-usui" element={<MikaoUsui />} />
-      <Route path="/masters/chujiro-hayashi" element={<ChujiroHayashi />} />
-      <Route path="/masters/hawayo-takata" element={<HawayoTakata />} />
-      <Route path="/masters/phyllis-lei-furumoto" element={<PhyllisLeiFurumoto />} />
-      <Route path="/masters/william-lee-rand" element={<WilliamLeeRand />} />
+        <Route path="/masters/mikao-usui" element={<MikaoUsui />} />
+        <Route path="/masters/chujiro-hayashi" element={<ChujiroHayashi />} />
+        <Route path="/masters/hawayo-takata" element={<HawayoTakata />} />
+        <Route path="/masters/phyllis-lei-furumoto" element={<PhyllisLeiFurumoto />} />
+        <Route path="/product/:id" element={<ProductDetail />} />
+        
+        <Route path="/masters/william-lee-rand" element={<WilliamLeeRand />} />
       </Routes>
     </main>
   );
